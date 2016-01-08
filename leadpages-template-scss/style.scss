@@ -1,0 +1,97 @@
+
+/*Style.scss*/
+
+@import 'bower_components/normalize-css/normalize.css';
+@import 'foundation';
+
+
+
+/* variables
+---------------------------------------------------------- */
+
+
+/*--- Colors ----*/
+$bodyBg:#fffffd;
+
+
+
+$bodyTextColor:#111111;
+
+
+
+$bodyFont:'merriweather', sans-serif;
+
+
+/* sitewide
+---------------------------------------------------------- */
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model; // Safari <= 5
+     -moz-box-sizing: $box-model; // Firefox <= 19
+          box-sizing: $box-model;
+}
+.row{
+	max-width: 550px;
+}
+.rowLg{
+   width: 100%;
+   margin-left: auto;
+   margin-right: auto;
+   max-width: initial;
+  .row{
+    max-width: calc(1000px);
+    margin: auto;
+  }
+}
+
+.clearfix:before,
+.site-container:before,
+.site-footer:before,
+.site-header:before,
+.section:before,
+.wrap:before {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after,
+.site-container:after,
+.site-footer:after,
+.site-header:after,
+.section:before,
+.wrap:after {
+	clear: both;
+	content: " ";
+	display: table;	
+}
+
+img {
+	max-width: 100%;
+}
+
+body {
+	background: $bodyBg;
+	color: $bodyTextColor;
+	font-size: 18px;
+	font-family: $bodyFont;
+	text-align: center;
+	margin:auto;
+}
+.cb{
+	clear:both;
+}
+
+/*---- Header ---*/
+
+
+/*Style.scss*/
+
+@import 'mediumscreen';
+@import 'largescreen';
+@import 'XLargecreen'

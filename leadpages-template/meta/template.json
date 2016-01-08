@@ -1,0 +1,603 @@
+{
+	"id": "Freedom Leadmagnet mkt",
+	"name": "fredom Leadmagnet mkt", 
+	"mobile": true, 
+	"notes": "version 1.018", 
+	"syntax": 4, 
+	"version": 1.018,
+	"style": {
+		"html": "",
+		"replacements": [
+
+        {
+              "type": "color",
+              "name": "Header Color",
+              "find": "#F3F3F4"
+          },
+          {
+              "type": "color",
+              "name": "Header border Color",
+              "find": "#D3D4D8"
+          },
+          {
+              "type": "color",
+              "name": "Hero Bg Color",
+              "find": "#FCFCFD"
+          },
+           {
+              "type": "color",
+              "name": "Section1 Bg Color",
+              "find": "#E5E6E8"
+          },
+          {
+              "type": "color",
+              "name": "Section1 Bullet Color",
+              "find": "#358DE6"
+          },
+           {
+              "type": "color",
+              "name": "Section2 Bg Color",
+              "find": "#DFE0E4"
+          },
+          {
+              "type": "color",
+              "name": "Section2 Left Bg Color",
+              "find": "#d0d0d0"
+          },
+          {
+              "type": "color",
+              "name": "Section2 Left Border Color",
+              "find": "#EFEFEF"
+          },
+
+           {
+              "type": "color",
+              "name": "Section3 Bg Color",
+              "find": "#E5E6E7"
+          },
+          {
+              "type": "color",
+              "name": "Section3 Inner Color",
+              "find": "#fffffe"
+          },
+          {
+              "type": "color",
+              "name": "Section3 Inner Border & Shadow",
+              "find": "#D9D9D9"
+          },
+           {
+              "type": "color",
+              "name": "Section4 Bg Color",
+              "find": "#DFE0E6"
+          },
+          {
+              "type": "color",
+              "name": "List Line Color",
+              "find": "#A6A7AB"
+          },
+          {
+              "type": "color",
+              "name": "Section 4 Contact Color",
+              "find": "#F3F3F3"
+          },
+          
+              {
+              "type": "color",
+              "name": "Footer Bg Color",
+              "find": "#2C76C0"
+          },
+           {
+              "type": "color",
+              "name": "Main Font Color",
+              "find": "#333333"
+          },
+           {
+              "type": "color",
+              "name": "Headline Font Color",
+              "find": "#666666"
+          },
+          {
+              "type": "color",
+              "name": "Link Font Color",
+              "find": "#F16A04"
+          },
+          {
+              "type": "color",
+              "name": "Button Top Color",
+              "find": "#ff9500"
+          },
+          {
+              "type": "color",
+              "name": "Button Bottom Color",
+              "find": "#f18100"
+          },
+          {
+              "type": "color",
+              "name": "Button Border Color",
+              "find": "#ff9502"
+          },
+           {
+              "type": "color",
+              "name": "Button Hover Color",
+              "find": "#ff9501"
+          },
+          {
+              "type": "color",
+              "name": "Small headline color",
+              "find": "#1f7ad5"
+          },
+          {
+              "type": "color",
+              "name": "Footer List font color",
+              "find": "#fffff1"
+          }
+           
+
+
+
+
+		                ]
+	},
+
+	"form": {
+        "title": {
+            "css": {
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "18pt;",
+                "letter-spacing": "0em;"
+            },
+            "html": "<strong>Enter your email address below to reserve _______... it's 100% FREE!</strong>"
+        },
+        "submit": {
+            "css": {
+                "background-color": "#ffcb01;",
+                "border-color": "#ffb403;",
+                "border-width": "0pt;",
+                "border-style": "solid;",
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "14pt;",
+                "letter-spacing": "0em;"
+            },
+            "html": "Free Instant Access &raquo;"
+        },
+        "privacy": {
+            "css": {
+                "font-family": "Helvetica, Arial, sans-serif",
+                "font-size": "12pt;",
+                "letter-spacing": "0em;"
+            },
+            "html": "<div><i class=\"icon-lock\"></i>We hate SPAM and promise to keep your email address safe. </div>"
+        }
+    },
+	"elements": [
+		
+        {
+      "id": "header",
+      "name": "Header Container",
+      "type": "container"
+        },
+         {
+      "id": "hero",
+      "name": "hero Container",
+      "type": "container"
+        },
+         {
+      "id": "heroLeft",
+      "name": "heroLeft Container",
+      "type": "container"
+        },
+         {
+      "id": "heroRight",
+      "name": "heroRight Container",
+      "type": "container"
+        },
+        {
+      "id": "heroRightFormSecure",
+      "name": "Hero Right form Secure Container",
+      "type": "container"
+        },
+
+          {
+      "id": "section1",
+      "name": "section1 Container",
+      "type": "container"
+        },
+
+        {
+      "id": "section1Left",
+      "name": "section1Left Container",
+      "type": "container"
+        },
+
+       {
+      "id": "section1ListWrap",
+      "name": "section1List Container",
+      "type": "container"
+        },
+
+        {
+      "id": "section1Right",
+      "name": "section1Right Container",
+      "type": "container"
+        },
+           {
+      "id": "section2",
+      "name": "section2 Container",
+      "type": "container"
+        },
+         {
+      "id": "section2Left",
+      "name": "section2Left Container",
+      "type": "container"
+        },
+        {
+      "id": "section2Right",
+      "name": "section2Right Container",
+      "type": "container"
+        },
+           {
+      "id": "section3",
+      "name": "section3 Container",
+      "type": "container"
+        },
+           {
+      "id": "section4",
+      "name": "section4 Container",
+      "type": "container"
+        },
+        {
+      "id": "section4Left",
+      "name": "section4Left Container",
+      "type": "container"
+        },
+        {
+      "id": "section4LeftTextLine",
+      "name": "section4LeftTextLine Container",
+      "type": "container"
+        },
+        {
+      "id": "section4Right",
+      "name": "section4Right Container",
+      "type": "container"
+        },
+         
+           {
+      "id": "footer",
+      "name": "footer Container",
+      "type": "container"
+        },
+         {
+      "id": "footerLinkList",
+      "name": "footer Link container ",
+      "type": "container"
+        },
+       
+      
+
+
+
+
+        {
+      "id": "heroRightHeadline",
+      "name": "heroRightHeadline Text",
+      "type": "text"
+        },
+         {
+      "id": "heroRightSubhead",
+      "name": "heroRightSubhead Text",
+      "type": "text"
+        },
+      {
+      "id": "heroRightFormText",
+      "name": "heroRightFormText Text",
+      "type": "text"
+        },
+         {
+      "id": "section1Headline",
+      "name": "section1Headline Text",
+      "type": "text"
+        },
+        {
+      "id": "section1LeftHead",
+      "name": "section1LeftHead Text",
+      "type": "text"
+        },
+     {
+      "id": "section1LeftSubhead",
+      "name": "section1LeftSubhead Text",
+      "type": "text"
+        },
+         {
+      "id": "section1ListHead",
+      "name": "section1ListHead Text",
+      "type": "text"
+        },
+         {
+      "id": "section1List",
+      "name": "section 1 List ",
+      "type": "text"
+        },
+        {
+      "id": "section2Headline",
+      "name": "section2Headline Text ",
+      "type": "text"
+        },
+         {
+      "id": "section2LeftHead",
+      "name": "section2LeftHead Text ",
+      "type": "text"
+        },
+         {
+      "id": "section2LeftInnerTopHeadlines",
+      "name": "section2 TopHeadlines Text ",
+      "type": "text"
+        },
+        {
+      "id": "section2InnerBottom",
+      "name": "section2InnerBottom Text ",
+      "type": "text"
+        },
+         {
+      "id": "section2RightHead",
+      "name": "section2RightHead Text ",
+      "type": "text"
+        },
+        {
+      "id": "section2RightList",
+      "name": "section2 Right List  ",
+      "type": "text"
+        },
+          {
+      "id": "section3Headline",
+      "name": "section3Headline Text ",
+      "type": "text"
+        },
+         {
+      "id": "section3List",
+      "name": "section3 List ",
+      "type": "text"
+        },
+         {
+      "id": "section4LeftHeadline",
+      "name": "section4LeftHeadline Text ",
+      "type": "text"
+        },
+         {
+      "id": "section4LeftTextInner",
+      "name": "section4LeftTextInner Text ",
+      "type": "text"
+        },
+        {
+      "id": "section4RightMargin",
+      "name": "section4Right Spacing",
+      "type": "text"
+        },
+         {
+      "id": "section4ConnectText",
+      "name": "section4ConnectText Text ",
+      "type": "text"
+        },
+        {
+      "id": "section4RightInnerHeadline",
+      "name": "section4RightInnerHeadline Text ",
+      "type": "text"
+        },
+        {
+      "id": "section4RightMiddle",
+      "name": "section4RightMiddle Text ",
+      "type": "text"
+        },
+         {
+      "id": "section4RightBottom",
+      "name": "section4RightBottom Text ",
+      "type": "text"
+        },
+        
+
+           {
+      "id": "footerText1",
+      "name": "footer text 1 ",
+      "type": "text"
+        },
+           {
+      "id": "footerText2",
+      "name": "footer text 2",
+      "type": "text"
+        },
+        {
+      "id": "footerText3",
+      "name": "footer text 3",
+      "type": "text"
+        },
+
+
+
+
+        
+        {
+      "id": "navLink1",
+      "name": "NavLink1 Link",
+      "type": "link"
+        },
+          {
+      "id": "navLink2",
+      "name": "NavLink2 Link",
+      "type": "link"
+        },
+          {
+      "id": "navLink3",
+      "name": "NavLink3 Link",
+      "type": "link"
+        },
+          {
+      "id": "navLink4",
+      "name": "NavLink4 Link",
+      "type": "link"
+        },
+        {
+      "id": "heroButton",
+      "name": "heroButton Link",
+      "type": "link"
+        },
+         {
+      "id": "heroRightTermsLink",
+      "name": "heroRightTermsLink Link",
+      "type": "link"
+        },
+        {
+      "id": "heroRightFormLink",
+      "name": "heroRightFormLink Link",
+      "type": "link"
+        },
+        {
+      "id": "section2Button",
+      "name": "section2Button Link",
+      "type": "link"
+        },
+         {
+      "id": "footerTel",
+      "name": "footerTel Link",
+      "type": "link"
+        },
+         {
+      "id": "footerLinkItem1",
+      "name": "footer Link 1",
+      "type": "link"
+        },
+         {
+      "id": "footerLinkItem2",
+      "name": "footer Link 2",
+      "type": "link"
+        },
+         {
+      "id": "footerLinkItem3",
+      "name": "footer Link 3",
+      "type": "link"
+        },
+         {
+      "id": "footerLinkItem4",
+      "name": "footer Link 4",
+      "type": "link"
+        },
+         {
+      "id": "footerLinkItem5",
+      "name": "footer Link 5",
+      "type": "link"
+        },
+
+
+
+
+
+         {
+      "id": "logo",
+      "name": "logo imgLink",
+      "type": "image-link"
+        },
+         {
+      "id": "navImg1",
+      "name": "navImg1 imgLink",
+      "type": "image-link"
+        },
+        {
+      "id": "navImg2",
+      "name": "navImg2 imgLink",
+      "type": "image-link"
+        },
+        {
+      "id": "navImg3",
+      "name": "navImg3 imgLink",
+      "type": "image-link"
+        },
+        {
+      "id": "navImg4",
+      "name": "navImg4 imgLink",
+      "type": "image-link"
+        },
+         {
+      "id": "section1ScrollLink",
+      "name": "section1ScrollLink imgLink",
+      "type": "image-link"
+        },
+          {
+      "id": "section2ScrollLink",
+      "name": "section2ScrollLink imgLink",
+      "type": "image-link"
+        },
+         {
+      "id": "section3ScrollLink",
+      "name": "section3ScrollLink imgLink",
+      "type": "image-link"
+        },
+        {
+      "id": "section4ConnectFb",
+      "name": "section4ConnectFb imgLink",
+      "type": "image-link"
+        },  
+        {
+      "id": "section4ConnectTwitter",
+      "name": "section4ConnectTwitter imgLink",
+      "type": "image-link"
+        },  
+
+
+
+         {
+      "id": "heroLeftImg",
+      "name": "heroLeftImg image",
+      "type": "image"
+        },
+        {
+      "id": "lock",
+      "name": "lock image",
+      "type": "image"
+        },
+         {
+      "id": "section1dividerImg",
+      "name": "section1 divider image",
+      "type": "image"
+        },
+
+         {
+      "id": "section1RightImg",
+      "name": "section1RightImg image",
+      "type": "image"
+        },
+        {
+      "id": "section2dividerImg",
+      "name": "section2dividerImg image",
+      "type": "image"
+        },
+         {
+      "id": "section2LeftInnerTopImg",
+      "name": "section2LeftTopImg image",
+      "type": "image"
+        },
+         {
+      "id": "section4dividerImg",
+      "name": "section4dividerImg image",
+      "type": "image"
+        },
+         {
+      "id": "section4LeftImg",
+      "name": "section4LeftImg image",
+      "type": "image"
+        },
+        {
+      "id": "section4RightInnerImg",
+      "name": "section4RightInnerImg image",
+      "type": "image"
+        },
+
+
+        {
+      "id": "section1LeftVideo",
+      "name": "Section 1 Video",
+      "type": "video"
+        }
+
+
+	]
+}
+
+
