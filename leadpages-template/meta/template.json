@@ -2,9 +2,9 @@
 	"id": "Freedom Leadmagnet mkt",
 	"name": "fredom Leadmagnet mkt", 
 	"mobile": true, 
-	"notes": "version 1.018", 
+	"notes": "version 1.019", 
 	"syntax": 4, 
-	"version": 1.018,
+	"version": 1.019,
 	"style": {
 		"html": "",
 		"replacements": [
